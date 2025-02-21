@@ -1,0 +1,396 @@
+-- QUID SCRIPT BY WEENKOM4IK
+-- SCRIPT ALLOWED TO EDIT
+-- YOU CAN MODIFY THAT.
+local ver = "1.0"
+
+-- Instances:
+
+local quidScript = Instance.new("ScreenGui")
+local orig = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local title = Instance.new("TextLabel")
+local Text = Instance.new("TextBox")
+local lm = Instance.new("TextButton")
+local cmpRGLG = Instance.new("TextButton")
+local s = Instance.new("TextButton")
+local cmpPEN = Instance.new("TextButton")
+local version = Instance.new("TextLabel")
+local toggle = Instance.new("ImageButton")
+local tit = Instance.new("TextLabel")
+local tit_2 = Instance.new("TextLabel")
+local set = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local title_2 = Instance.new("TextLabel")
+local Color = Instance.new("TextButton")
+local R = Instance.new("TextBox")
+local ColorRGB = Instance.new("TextButton")
+local B = Instance.new("TextBox")
+local G = Instance.new("TextBox")
+
+--Properties:
+
+quidScript.Name = "quidScript"
+quidScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+quidScript.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+orig.Name = "orig"
+orig.Parent = quidScript
+orig.BackgroundColor3 = Color3.fromRGB(242, 255, 219)
+orig.BackgroundTransparency = 0.500
+orig.BorderColor3 = Color3.fromRGB(0, 0, 0)
+orig.BorderSizePixel = 0
+orig.Position = UDim2.new(-0.000723761448, 0, 0.530769229, 0)
+orig.Size = UDim2.new(0, 513, 0, 264)
+
+UICorner.Parent = orig
+
+UIAspectRatioConstraint.Parent = orig
+UIAspectRatioConstraint.AspectRatio = 1.943
+
+title.Name = "title"
+title.Parent = orig
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 513, 0, 50)
+title.Font = Enum.Font.Code
+title.Text = "quidScript"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+title.TextStrokeTransparency = 0.000
+title.TextWrapped = true
+
+Text.Name = "Text"
+Text.Parent = orig
+Text.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+Text.BackgroundTransparency = 0.200
+Text.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Text.BorderSizePixel = 0
+Text.Position = UDim2.new(0, 0, 0.189393938, 0)
+Text.Size = UDim2.new(0, 200, 0, 50)
+Text.Font = Enum.Font.Code
+Text.PlaceholderText = "Type anything"
+Text.Text = ""
+Text.TextColor3 = Color3.fromRGB(0, 0, 0)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
+
+lm.Name = "lm"
+lm.Parent = orig
+lm.BackgroundColor3 = Color3.fromRGB(255, 243, 107)
+lm.BorderColor3 = Color3.fromRGB(0, 0, 0)
+lm.BorderSizePixel = 0
+lm.Position = UDim2.new(0.389863551, 0, 0.189393938, 0)
+lm.Size = UDim2.new(0, 62, 0, 50)
+lm.Font = Enum.Font.Code
+lm.Text = "Lobby Message"
+lm.TextColor3 = Color3.fromRGB(0, 0, 0)
+lm.TextScaled = true
+lm.TextSize = 14.000
+lm.TextWrapped = true
+
+cmpRGLG.Name = "cmpRGLG"
+cmpRGLG.Parent = orig
+cmpRGLG.BackgroundColor3 = Color3.fromRGB(192, 255, 57)
+cmpRGLG.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cmpRGLG.BorderSizePixel = 0
+cmpRGLG.Position = UDim2.new(0.510721266, 0, 0.189393938, 0)
+cmpRGLG.Size = UDim2.new(0, 58, 0, 50)
+cmpRGLG.Font = Enum.Font.Code
+cmpRGLG.Text = "Complete Green Light, Red Light"
+cmpRGLG.TextColor3 = Color3.fromRGB(0, 0, 0)
+cmpRGLG.TextScaled = true
+cmpRGLG.TextSize = 14.000
+cmpRGLG.TextWrapped = true
+
+s.Name = "s"
+s.Parent = orig
+s.BackgroundColor3 = Color3.fromRGB(152, 152, 152)
+s.BorderColor3 = Color3.fromRGB(0, 0, 0)
+s.BorderSizePixel = 0
+s.Position = UDim2.new(0, 0, -0.193181813, 0)
+s.Size = UDim2.new(0, 62, 0, 50)
+s.Font = Enum.Font.Code
+s.Text = "Settings"
+s.TextColor3 = Color3.fromRGB(0, 0, 0)
+s.TextScaled = true
+s.TextSize = 14.000
+s.TextWrapped = true
+
+cmpPEN.Name = "cmpPEN"
+cmpPEN.Parent = orig
+cmpPEN.BackgroundColor3 = Color3.fromRGB(114, 243, 255)
+cmpPEN.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cmpPEN.BorderSizePixel = 0
+cmpPEN.Position = UDim2.new(0.623781681, 0, 0.189393938, 0)
+cmpPEN.Size = UDim2.new(0, 58, 0, 50)
+cmpPEN.Font = Enum.Font.Code
+cmpPEN.Text = "Complete Penta"
+cmpPEN.TextColor3 = Color3.fromRGB(0, 0, 0)
+cmpPEN.TextScaled = true
+cmpPEN.TextSize = 14.000
+cmpPEN.TextWrapped = true
+
+version.Name = "version"
+version.Parent = orig
+version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+version.BackgroundTransparency = 1.000
+version.BorderColor3 = Color3.fromRGB(0, 0, 0)
+version.BorderSizePixel = 0
+version.Position = UDim2.new(0.840155959, 0, -0.0828788057, 0)
+version.Size = UDim2.new(0, 82, 0, 21)
+version.Font = Enum.Font.SourceSans
+version.Text = ver
+version.TextColor3 = Color3.fromRGB(191, 191, 191)
+version.TextScaled = true
+version.TextSize = 14.000
+version.TextWrapped = true
+
+toggle.Name = "toggle"
+toggle.Parent = quidScript
+toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+toggle.BackgroundTransparency = 1.000
+toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+toggle.BorderSizePixel = 0
+toggle.Position = UDim2.new(0.927364826, 0, 0.374556214, 0)
+toggle.Size = UDim2.new(0, 100, 0, 102)
+toggle.Image = "rbxassetid://101811918122842"
+
+tit.Name = "tit"
+tit.Parent = toggle
+tit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tit.BackgroundTransparency = 1.000
+tit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tit.BorderSizePixel = 0
+tit.Position = UDim2.new(0.140000001, 0, -0.127450988, 0)
+tit.Size = UDim2.new(0, 72, 0, 50)
+tit.Font = Enum.Font.Code
+tit.Text = "quidScript"
+tit.TextColor3 = Color3.fromRGB(255, 255, 255)
+tit.TextScaled = true
+tit.TextSize = 14.000
+tit.TextStrokeTransparency = 0.000
+tit.TextWrapped = true
+
+tit_2.Name = "tit"
+tit_2.Parent = toggle
+tit_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tit_2.BackgroundTransparency = 1.000
+tit_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tit_2.BorderSizePixel = 0
+tit_2.Position = UDim2.new(0.140000001, 0, 1.29411769, 0)
+tit_2.Rotation = 180.000
+tit_2.Size = UDim2.new(0, 72, 0, -44)
+tit_2.Font = Enum.Font.Code
+tit_2.Text = "quidScript"
+tit_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+tit_2.TextScaled = true
+tit_2.TextSize = 14.000
+tit_2.TextStrokeTransparency = 0.000
+tit_2.TextWrapped = true
+
+set.Name = "set"
+set.Parent = quidScript
+set.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+set.BackgroundTransparency = 0.300
+set.BorderColor3 = Color3.fromRGB(0, 0, 0)
+set.BorderSizePixel = 0
+set.Position = UDim2.new(0.37065655, 0, 0.530769229, 0)
+set.Size = UDim2.new(0, 335, 0, 205)
+set.Visible = false
+
+UICorner_2.Parent = set
+
+UIAspectRatioConstraint_2.Parent = set
+UIAspectRatioConstraint_2.AspectRatio = 1.943
+
+title_2.Name = "title"
+title_2.Parent = set
+title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_2.BackgroundTransparency = 1.000
+title_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title_2.BorderSizePixel = 0
+title_2.Size = UDim2.new(0, 335, 0, 25)
+title_2.Font = Enum.Font.Code
+title_2.Text = "quidSettings"
+title_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+title_2.TextScaled = true
+title_2.TextSize = 14.000
+title_2.TextWrapped = true
+
+Color.Name = "Color"
+Color.Parent = set
+Color.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Color.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Color.BorderSizePixel = 0
+Color.Position = UDim2.new(0, 0, 0.145013571, 0)
+Color.Size = UDim2.new(0, 65, 0, 50)
+Color.Font = Enum.Font.Code
+Color.Text = "Change to Random Color"
+Color.TextColor3 = Color3.fromRGB(0, 0, 0)
+Color.TextScaled = true
+Color.TextSize = 14.000
+Color.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Color.TextStrokeTransparency = 0.000
+Color.TextWrapped = true
+
+R.Name = "R"
+R.Parent = set
+R.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+R.BackgroundTransparency = 0.200
+R.BorderColor3 = Color3.fromRGB(0, 0, 0)
+R.BorderSizePixel = 0
+R.Position = UDim2.new(0, 0, 0.469843954, 0)
+R.Size = UDim2.new(0, 65, 0, 38)
+R.Font = Enum.Font.Code
+R.PlaceholderColor3 = Color3.fromRGB(178, 0, 0)
+R.PlaceholderText = "Red (RGB)"
+R.Text = ""
+R.TextColor3 = Color3.fromRGB(255, 0, 0)
+R.TextScaled = true
+R.TextSize = 14.000
+R.TextWrapped = true
+
+ColorRGB.Name = "ColorRGB"
+ColorRGB.Parent = set
+ColorRGB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ColorRGB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ColorRGB.BorderSizePixel = 0
+ColorRGB.Position = UDim2.new(0.194029853, 0, 0.145013571, 0)
+ColorRGB.Size = UDim2.new(0, 65, 0, 50)
+ColorRGB.Font = Enum.Font.Code
+ColorRGB.Text = "Change Color to Custom RGB"
+ColorRGB.TextColor3 = Color3.fromRGB(0, 0, 0)
+ColorRGB.TextScaled = true
+ColorRGB.TextSize = 14.000
+ColorRGB.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ColorRGB.TextStrokeTransparency = 0.000
+ColorRGB.TextWrapped = true
+
+B.Name = "B"
+B.Parent = set
+B.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+B.BackgroundTransparency = 0.200
+B.BorderColor3 = Color3.fromRGB(0, 0, 0)
+B.BorderSizePixel = 0
+B.Position = UDim2.new(0.388059705, 0, 0.469843954, 0)
+B.Size = UDim2.new(0, 65, 0, 38)
+B.Font = Enum.Font.Code
+B.PlaceholderColor3 = Color3.fromRGB(8, 34, 178)
+B.PlaceholderText = "BLUE (RGB)"
+B.Text = ""
+B.TextColor3 = Color3.fromRGB(0, 47, 255)
+B.TextScaled = true
+B.TextSize = 14.000
+B.TextWrapped = true
+
+G.Name = "G"
+G.Parent = set
+G.BackgroundColor3 = Color3.fromRGB(121, 121, 121)
+G.BackgroundTransparency = 0.200
+G.BorderColor3 = Color3.fromRGB(0, 0, 0)
+G.BorderSizePixel = 0
+G.Position = UDim2.new(0.194029853, 0, 0.469843954, 0)
+G.Size = UDim2.new(0, 65, 0, 38)
+G.Font = Enum.Font.Code
+G.PlaceholderColor3 = Color3.fromRGB(101, 178, 53)
+G.PlaceholderText = "GREEN (RGB)"
+G.Text = ""
+G.TextColor3 = Color3.fromRGB(60, 255, 0)
+G.TextScaled = true
+G.TextSize = 14.000
+G.TextWrapped = true
+
+-- Scripts:
+
+local function WHNHIJM_fake_script() -- lm.LocalScript 
+	local script = Instance.new('LocalScript', lm)
+
+	script.Parent.Activated:Connect(function()
+		game.ReplicatedStorage.ClientNotify:Fire("quidScript",script.Parent.Parent.Text.Text)
+	end)
+end
+coroutine.wrap(WHNHIJM_fake_script)()
+local function OMXCOOL_fake_script() -- cmpRGLG.LocalScript 
+	local script = Instance.new('LocalScript', cmpRGLG)
+
+	script.Parent.Activated:Connect(function()
+		game.ReplicatedStorage.Remotes.RedLightWin:FireServer(game.Players.LocalPlayer)
+	end)
+end
+coroutine.wrap(OMXCOOL_fake_script)()
+local function RYPHJQ_fake_script() -- orig.LocalScript 
+	local script = Instance.new('LocalScript', orig)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(RYPHJQ_fake_script)()
+local function WDFIJN_fake_script() -- s.LocalScript 
+	local script = Instance.new('LocalScript', s)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.set.Visible = not script.Parent.Parent.Parent.set.Visible
+	end)
+end
+coroutine.wrap(WDFIJN_fake_script)()
+local function ZPEP_fake_script() -- cmpPEN.LocalScript 
+	local script = Instance.new('LocalScript', cmpPEN)
+
+	script.Parent.Activated:Connect(function()
+		game.ReplicatedStorage.Remotes.PentaFullFinish:FireServer(game.Players.LocalPlayer)
+	end)
+end
+coroutine.wrap(ZPEP_fake_script)()
+local function VUTHU_fake_script() -- toggle.visual 
+	local script = Instance.new('LocalScript', toggle)
+
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.orig.Visible = not script.Parent.Parent.orig.Visible
+	end)
+	while wait() do
+		script.Parent.Rotation += 0.1
+	end
+end
+coroutine.wrap(VUTHU_fake_script)()
+local function FLCMEM_fake_script() -- set.LocalScript 
+	local script = Instance.new('LocalScript', set)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(FLCMEM_fake_script)()
+local function RSPJIEB_fake_script() -- Color.LocalScript 
+	local script = Instance.new('LocalScript', Color)
+
+	local function fakecolor()
+		script.Parent.BackgroundColor3 = script.Parent.Parent.Parent.orig.BackgroundColor3
+	end
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.orig.BackgroundColor3 = Color3.fromRGB(math.random(0,255), math.random(0,255), math.random(0,255))
+		fakecolor()
+	end)
+	script.Parent.Parent.Parent.orig.Changed:Connect(fakecolor)
+end
+coroutine.wrap(RSPJIEB_fake_script)()
+local function DMSJWOI_fake_script() -- ColorRGB.LocalScript 
+	local script = Instance.new('LocalScript', ColorRGB)
+
+	local function fakecolor()
+		script.Parent.BackgroundColor3 = script.Parent.Parent.Parent.orig.BackgroundColor3
+	end
+	script.Parent.Activated:Connect(function()
+		script.Parent.Parent.Parent.orig.BackgroundColor3 = Color3.fromRGB(script.Parent.Parent.R.Text,script.Parent.Parent.G.Text,script.Parent.Parent.B.Text)
+		fakecolor()
+	end)
+	script.Parent.Parent.Parent.orig.Changed:Connect(function()
+		fakecolor()
+	end)
+end
+coroutine.wrap(DMSJWOI_fake_script)()
