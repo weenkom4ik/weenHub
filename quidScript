@@ -1,4 +1,5 @@
 -- QUID SCRIPT BY WEENKOM4IK
+-- v2.3
 
 -- Instances:
 
@@ -17,6 +18,8 @@ local minESP = Instance.new("TextButton")
 local minESP2 = Instance.new("TextButton")
 local fling = Instance.new("TextButton")
 local flygui = Instance.new("TextButton")
+local pentanpc = Instance.new("TextButton")
+local tpgui = Instance.new("TextButton")
 local toggle = Instance.new("ImageButton")
 local tit = Instance.new("TextLabel")
 local tit_2 = Instance.new("TextLabel")
@@ -209,6 +212,34 @@ flygui.TextScaled = true
 flygui.TextSize = 14.000
 flygui.TextWrapped = true
 
+pentanpc.Name = "pentanpc"
+pentanpc.Parent = orig
+pentanpc.BackgroundColor3 = Color3.fromRGB(114, 243, 255)
+pentanpc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pentanpc.BorderSizePixel = 0
+pentanpc.Position = UDim2.new(0.231968835, 0, 0.378787875, 0)
+pentanpc.Size = UDim2.new(0, 58, 0, 50)
+pentanpc.Font = Enum.Font.Code
+pentanpc.Text = "Delete Penta Thanos NPCs"
+pentanpc.TextColor3 = Color3.fromRGB(0, 0, 0)
+pentanpc.TextScaled = true
+pentanpc.TextSize = 14.000
+pentanpc.TextWrapped = true
+
+tpgui.Name = "tpgui"
+tpgui.Parent = orig
+tpgui.BackgroundColor3 = Color3.fromRGB(116, 184, 74)
+tpgui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tpgui.BorderSizePixel = 0
+tpgui.Position = UDim2.new(0.345029265, 0, 0.378787875, 0)
+tpgui.Size = UDim2.new(0, 58, 0, 50)
+tpgui.Font = Enum.Font.Code
+tpgui.Text = "Teleport Gui"
+tpgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+tpgui.TextScaled = true
+tpgui.TextSize = 14.000
+tpgui.TextWrapped = true
+
 toggle.Name = "toggle"
 toggle.Parent = quidScript
 toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -366,46 +397,46 @@ G.TextWrapped = true
 
 -- Scripts:
 
-local function RHENHJG_fake_script() -- lm.LocalScript 
+local function CVSNBV_fake_script() -- lm.LocalScript 
 	local script = Instance.new('LocalScript', lm)
 
 	script.Parent.Activated:Connect(function()
 		game.ReplicatedStorage.ClientNotify:Fire("quidScript",script.Parent.Parent.Text.Text)
 	end)
 end
-coroutine.wrap(RHENHJG_fake_script)()
-local function KWRVXA_fake_script() -- cmpRGLG.LocalScript 
+coroutine.wrap(CVSNBV_fake_script)()
+local function PAQSBLS_fake_script() -- cmpRGLG.LocalScript 
 	local script = Instance.new('LocalScript', cmpRGLG)
 
 	script.Parent.Activated:Connect(function()
 		game.Players.LocalPlayer.Character.Head.CFrame = workspace.Map.RedLight.WinHitbox.CFrame
 	end)
 end
-coroutine.wrap(KWRVXA_fake_script)()
-local function IIXSVVJ_fake_script() -- orig.LocalScript 
+coroutine.wrap(PAQSBLS_fake_script)()
+local function LUCQ_fake_script() -- orig.LocalScript 
 	local script = Instance.new('LocalScript', orig)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(IIXSVVJ_fake_script)()
-local function FKNG_fake_script() -- s.LocalScript 
+coroutine.wrap(LUCQ_fake_script)()
+local function PAILTY_fake_script() -- s.LocalScript 
 	local script = Instance.new('LocalScript', s)
 
 	script.Parent.Activated:Connect(function()
 		script.Parent.Parent.Parent.set.Visible = not script.Parent.Parent.Parent.set.Visible
 	end)
 end
-coroutine.wrap(FKNG_fake_script)()
-local function XWBZM_fake_script() -- cmpPEN.LocalScript 
+coroutine.wrap(PAILTY_fake_script)()
+local function XTPWJWH_fake_script() -- cmpPEN.LocalScript 
 	local script = Instance.new('LocalScript', cmpPEN)
 
 	script.Parent.Activated:Connect(function()
 		game.ReplicatedStorage.Remotes.PentaFullFinish:FireServer(game.Players.LocalPlayer)
 	end)
 end
-coroutine.wrap(XWBZM_fake_script)()
-local function UHRDER_fake_script() -- minESP.LocalScript 
+coroutine.wrap(XTPWJWH_fake_script)()
+local function XSHOCE_fake_script() -- minESP.LocalScript 
 	local script = Instance.new('LocalScript', minESP)
 
 	script.Parent.Activated:Connect(function()
@@ -415,8 +446,8 @@ local function UHRDER_fake_script() -- minESP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UHRDER_fake_script)()
-local function LINX_fake_script() -- minESP2.LocalScript 
+coroutine.wrap(XSHOCE_fake_script)()
+local function WSKJVK_fake_script() -- minESP2.LocalScript 
 	local script = Instance.new('LocalScript', minESP2)
 
 	script.Parent.Activated:Connect(function()
@@ -426,24 +457,67 @@ local function LINX_fake_script() -- minESP2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LINX_fake_script)()
-local function NNLH_fake_script() -- fling.LocalScript 
+coroutine.wrap(WSKJVK_fake_script)()
+local function WQKEBTE_fake_script() -- fling.LocalScript 
 	local script = Instance.new('LocalScript', fling)
 
 	script.Parent.Activated:Connect(function()
 		game.Players.LocalPlayer.Character.Head.CFrame = workspace:WaitForChild("SpawnLocation").CFrame
 	end)
 end
-coroutine.wrap(NNLH_fake_script)()
-local function RJSZ_fake_script() -- flygui.LocalScript 
+coroutine.wrap(WQKEBTE_fake_script)()
+local function MBYWLJS_fake_script() -- flygui.LocalScript 
 	local script = Instance.new('LocalScript', flygui)
 
 	script.Parent.Activated:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 	end)
 end
-coroutine.wrap(RJSZ_fake_script)()
-local function PHNZ_fake_script() -- toggle.visual 
+coroutine.wrap(MBYWLJS_fake_script)()
+local function CYWKZ_fake_script() -- pentanpc.LocalScript 
+	local script = Instance.new('LocalScript', pentanpc)
+
+	script.Parent.Activated:Connect(function()
+		workspace:WaitForChild("NPCs"):ClearAllChildren()
+	end)
+end
+coroutine.wrap(CYWKZ_fake_script)()
+local function OSIE_fake_script() -- tpgui.LocalScript 
+	local script = Instance.new('LocalScript', tpgui)
+
+	script.Parent.Activated:Connect(function()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+		local Window = Library.CreateLib("Oogish's TP to players OP script", "DarkTheme")
+		local Tab = Window:NewTab("Players")
+		local Section = Tab:NewSection("Teleport")
+	
+		--------------------OP OP OP SUPER SCRIPT LOL0LOLOLOLOLOL
+		players = {}
+	
+		for i,v in pairs(game:GetService("Players"):GetChildren()) do
+			table.insert(players,v.Name)
+		end
+	
+		Section:NewDropdown("Select Player", " ", players, function(abc)
+			Select = abc
+		end)
+	
+	
+		Section:NewButton("Refresh", " ", function()
+			table.clear(players)
+			for i,v in pairs(game:GetService("Players"):GetChildren()) do
+				table.insert(players,v.Name)
+			end
+		end)
+	
+		Section:NewButton("Teleport", " ", function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Select].Character.HumanoidRootPart.CFrame
+		end)
+	
+	end)
+end
+coroutine.wrap(OSIE_fake_script)()
+local function JKKBIO_fake_script() -- toggle.visual 
 	local script = Instance.new('LocalScript', toggle)
 
 	script.Parent.Activated:Connect(function()
@@ -453,15 +527,15 @@ local function PHNZ_fake_script() -- toggle.visual
 		script.Parent.Rotation += 0.1
 	end
 end
-coroutine.wrap(PHNZ_fake_script)()
-local function QOLT_fake_script() -- set.LocalScript 
+coroutine.wrap(JKKBIO_fake_script)()
+local function QXRY_fake_script() -- set.LocalScript 
 	local script = Instance.new('LocalScript', set)
 
 	script.Parent.Active = true
 	script.Parent.Draggable = true
 end
-coroutine.wrap(QOLT_fake_script)()
-local function VYLSG_fake_script() -- Color.LocalScript 
+coroutine.wrap(QXRY_fake_script)()
+local function WBDHQF_fake_script() -- Color.LocalScript 
 	local script = Instance.new('LocalScript', Color)
 
 	local function fakecolor()
@@ -473,8 +547,8 @@ local function VYLSG_fake_script() -- Color.LocalScript
 	end)
 	script.Parent.Parent.Parent.orig.Changed:Connect(fakecolor)
 end
-coroutine.wrap(VYLSG_fake_script)()
-local function GDSQXE_fake_script() -- ColorRGB.LocalScript 
+coroutine.wrap(WBDHQF_fake_script)()
+local function NQQZCA_fake_script() -- ColorRGB.LocalScript 
 	local script = Instance.new('LocalScript', ColorRGB)
 
 	local function fakecolor()
@@ -488,5 +562,4 @@ local function GDSQXE_fake_script() -- ColorRGB.LocalScript
 		fakecolor()
 	end)
 end
-coroutine.wrap(GDSQXE_fake_script)()
-
+coroutine.wrap(NQQZCA_fake_script)()
