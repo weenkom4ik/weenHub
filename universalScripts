@@ -1,0 +1,328 @@
+-- UNIVERSAL SCRIPTS📜
+-- KEY IS ON DISCORD SERVER✅😁
+-- https://discord.gg/NXpX6seR85 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- Instances:
+
+local weenHubUniversal = Instance.new("ScreenGui")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local iy = Instance.new("TextButton")
+local dex = Instance.new("TextButton")
+local flygui = Instance.new("TextButton")
+local ghub = Instance.new("TextButton")
+local thub = Instance.new("TextButton")
+local coolkid = Instance.new("TextButton")
+local key = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local UICorner = Instance.new("UICorner")
+local submit = Instance.new("TextButton")
+local key_2 = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local titlke = Instance.new("TextLabel")
+
+--Properties:
+
+weenHubUniversal.Name = "weenHubUniversal"
+weenHubUniversal.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ScrollingFrame.Parent = weenHubUniversal
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(198, 99, 255)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 5
+ScrollingFrame.Position = UDim2.new(0.113098115, 0, 0.493467957, 0)
+ScrollingFrame.Size = UDim2.new(0, 213, 0, 294)
+ScrollingFrame.Visible = false
+ScrollingFrame.CanvasPosition = Vector2.new(0, 140)
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 10)
+
+iy.Name = "iy"
+iy.Parent = ScrollingFrame
+iy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+iy.BackgroundTransparency = 0.750
+iy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+iy.BorderSizePixel = 5
+iy.Size = UDim2.new(0, 196, 0, 50)
+iy.Font = Enum.Font.Jura
+iy.Text = "Inject Infinite Yield"
+iy.TextColor3 = Color3.fromRGB(0, 0, 0)
+iy.TextScaled = true
+iy.TextSize = 14.000
+iy.TextWrapped = true
+
+dex.Name = "dex"
+dex.Parent = ScrollingFrame
+dex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dex.BackgroundTransparency = 0.750
+dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dex.BorderSizePixel = 5
+dex.Size = UDim2.new(0, 196, 0, 50)
+dex.Font = Enum.Font.Jura
+dex.Text = "Inject Dex Explorer"
+dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+dex.TextScaled = true
+dex.TextSize = 14.000
+dex.TextWrapped = true
+
+flygui.Name = "flygui"
+flygui.Parent = ScrollingFrame
+flygui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+flygui.BackgroundTransparency = 0.750
+flygui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+flygui.BorderSizePixel = 5
+flygui.Size = UDim2.new(0, 196, 0, 50)
+flygui.Font = Enum.Font.Jura
+flygui.Text = "Inject Fly Gui v3"
+flygui.TextColor3 = Color3.fromRGB(0, 0, 0)
+flygui.TextScaled = true
+flygui.TextSize = 14.000
+flygui.TextWrapped = true
+
+ghub.Name = "ghub"
+ghub.Parent = ScrollingFrame
+ghub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ghub.BackgroundTransparency = 0.750
+ghub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ghub.BorderSizePixel = 5
+ghub.Size = UDim2.new(0, 196, 0, 50)
+ghub.Font = Enum.Font.Jura
+ghub.Text = "Inject Ghost Hub"
+ghub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ghub.TextScaled = true
+ghub.TextSize = 14.000
+ghub.TextWrapped = true
+
+thub.Name = "thub"
+thub.Parent = ScrollingFrame
+thub.BackgroundColor3 = Color3.fromRGB(90, 255, 236)
+thub.BackgroundTransparency = 0.750
+thub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+thub.BorderSizePixel = 5
+thub.Size = UDim2.new(0, 196, 0, 50)
+thub.Font = Enum.Font.Jura
+thub.Text = "Inject ToolHub"
+thub.TextColor3 = Color3.fromRGB(0, 0, 0)
+thub.TextScaled = true
+thub.TextSize = 14.000
+thub.TextWrapped = true
+
+coolkid.Name = "coolkid"
+coolkid.Parent = ScrollingFrame
+coolkid.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+coolkid.BackgroundTransparency = 0.750
+coolkid.BorderColor3 = Color3.fromRGB(0, 0, 0)
+coolkid.BorderSizePixel = 5
+coolkid.Size = UDim2.new(0, 196, 0, 50)
+coolkid.Font = Enum.Font.Jura
+coolkid.Text = "Inject C00lkid gui"
+coolkid.TextColor3 = Color3.fromRGB(0, 0, 0)
+coolkid.TextScaled = true
+coolkid.TextSize = 14.000
+coolkid.TextWrapped = true
+
+key.Name = "key"
+key.Parent = weenHubUniversal
+key.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+key.BackgroundTransparency = 1.000
+key.BorderColor3 = Color3.fromRGB(0, 0, 0)
+key.BorderSizePixel = 0
+key.Position = UDim2.new(0.113098115, 0, 0.493467957, 0)
+key.Size = UDim2.new(0, 601, 0, 191)
+
+TextBox.Parent = key
+TextBox.BackgroundColor3 = Color3.fromRGB(87, 160, 255)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.534337819, 0, -0.391824454, 0)
+TextBox.Selectable = false
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "https://discord.gg/NXpX6seR85"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner.Parent = TextBox
+
+submit.Name = "submit"
+submit.Parent = key
+submit.BackgroundColor3 = Color3.fromRGB(89, 255, 38)
+submit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+submit.BorderSizePixel = 5
+submit.Position = UDim2.new(0.514096498, 0, 0.139188111, 0)
+submit.Size = UDim2.new(0, 213, 0, 50)
+submit.Font = Enum.Font.Jura
+submit.Text = "Submit"
+submit.TextColor3 = Color3.fromRGB(0, 0, 0)
+submit.TextScaled = true
+submit.TextSize = 14.000
+submit.TextWrapped = true
+
+key_2.Name = "key"
+key_2.Parent = key
+key_2.BackgroundColor3 = Color3.fromRGB(147, 53, 255)
+key_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+key_2.BorderSizePixel = 5
+key_2.Position = UDim2.new(0.515440941, 0, -0.0876838714, 0)
+key_2.Size = UDim2.new(0, 212, 0, 44)
+key_2.Font = Enum.Font.Jura
+key_2.PlaceholderText = "Key"
+key_2.Text = ""
+key_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+key_2.TextScaled = true
+key_2.TextSize = 14.000
+key_2.TextWrapped = true
+
+TextLabel.Parent = key
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.535407484, 0, -0.393130332, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 18)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "KEY HERE:"
+TextLabel.TextColor3 = Color3.fromRGB(52, 238, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+titlke.Name = "titlke"
+titlke.Parent = weenHubUniversal
+titlke.BackgroundColor3 = Color3.fromRGB(182, 146, 255)
+titlke.BorderColor3 = Color3.fromRGB(0, 0, 0)
+titlke.BorderSizePixel = 5
+titlke.Position = UDim2.new(0.113098115, 0, 0.393705487, 0)
+titlke.Size = UDim2.new(0, 213, 0, 50)
+titlke.Font = Enum.Font.Jura
+titlke.Text = "Universal Scripts | By weenkom4ik"
+titlke.TextColor3 = Color3.fromRGB(0, 0, 0)
+titlke.TextScaled = true
+titlke.TextSize = 14.000
+titlke.TextWrapped = true
+
+-- Scripts:
+
+local function VHNU_fake_script() -- iy.LocalScript 
+	local script = Instance.new('LocalScript', iy)
+
+	local function inject()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end
+	script.Parent.Activated:Connect(function()
+		inject()
+	end)
+end
+coroutine.wrap(VHNU_fake_script)()
+local function JOPY_fake_script() -- dex.LocalScript 
+	local script = Instance.new('LocalScript', dex)
+
+	local function inject()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+	end
+	script.Parent.Activated:Connect(function()
+		inject()
+	end)
+end
+coroutine.wrap(JOPY_fake_script)()
+local function AXXVCP_fake_script() -- flygui.LocalScript 
+	local script = Instance.new('LocalScript', flygui)
+
+	local function inject()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+	end
+	script.Parent.Activated:Connect(function()
+		inject()
+	end)
+end
+local localkey = "weePlayRoblox-1e9R1d0RtY"
+coroutine.wrap(AXXVCP_fake_script)()
+local function VXWJ_fake_script() -- ghub.LocalScript 
+	local script = Instance.new('LocalScript', ghub)
+
+	local function inject()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+	end
+	script.Parent.Activated:Connect(function()
+		inject()
+	end)
+end
+coroutine.wrap(VXWJ_fake_script)()
+local function LSCSFHE_fake_script() -- thub.LocalScript 
+	local script = Instance.new('LocalScript', thub)
+
+	local function inject()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/kkzSB2H3'),true))()
+	end
+	script.Parent.Activated:Connect(function()
+		inject()
+	end)
+end
+coroutine.wrap(LSCSFHE_fake_script)()
+local function HUIP_fake_script() -- coolkid.LocalScript 
+	local script = Instance.new('LocalScript', coolkid)
+
+	script.Parent.Activated:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-coolkid-gui-15453"))()
+	end)
+end
+coroutine.wrap(HUIP_fake_script)()
+local function ESOG_fake_script() -- submit.LocalScript 
+	local script = Instance.new('LocalScript', submit)
+
+	script.Parent.Activated:Connect(function()
+		if script.Parent.Parent.key.Text == localkey then
+			script.Parent.Parent.key.Text = "Success! Loading..."
+			wait(1)
+			script.Parent.Parent.Visible = false
+			wait(1)
+			script.Parent.Parent.Parent.ScrollingFrame.Visible = true
+		else
+			script.Parent.Parent.key.Text = "Incorrect key"
+		end
+	end)
+end
+coroutine.wrap(ESOG_fake_script)()
+local function MXOMCY_fake_script() -- weenHubUniversal.LocalScript 
+	local script = Instance.new('LocalScript', weenHubUniversal)
+
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+		Title = "Universal Script Group loaded!",
+		Text = "script by weenkom4ik (also creds to sviter)", 
+	
+		Button1 = "Okay",
+		Duration = 30 
+	})
+end
+coroutine.wrap(MXOMCY_fake_script)()
